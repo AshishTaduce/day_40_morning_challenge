@@ -21,6 +21,7 @@ List<List<List<int>>> possibleMoves(List<List<int>> input){
   //print('after func $input = input  || $copy = copy');
   return result;
 }
+
 List<List<int>> winInOneMove(List<List<int>> currentInput){
   for(List<List<int>> list in possibleMoves(currentInput)){
     if(list[0].isEmpty && list[1].isEmpty){
